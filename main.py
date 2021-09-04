@@ -12,9 +12,10 @@ if __name__ == '__main__':
     parser.add_argument("--download_data", help="download data from coco")
     parser.add_argument("--train_data",help="save location for train data from coco")
     parser.add_argument("--annotation_data", help="location to extract annotation file from your machine")
-    parser.add_argument("--parent_loc", help="Nahi pata")
+    parser.add_argument("--parent_loc", help="parent location to save the dataset")
     args = parser.parse_args()
 
     main(args)
 
 #--download_data True --annotation_data C:\Users\nikhil\Desktop\Richa-Docs\579-Intelligent system\PRJ\coco\annotations --train_data C:\Users\nikhil\Desktop\Richa-Docs\579-Intelligent system\PRJ\coco\annotations --parent_loc C:\Users\nikhil\Desktop\Richa-Docs\579-Intelligent system\PRJ\coco-dataset
+#--download_data True --annotation_data C:\Users\nikhil\Desktop\Richa-Docs\579-Intelligent_system\PRJ\coco\annotations --train_data C:\Users\nikhil\Desktop\Richa-Docs\579-Intelligent_system\PRJ\coco-dataset\train --parent_loc C:\Users\nikhil\Desktop\Richa-Docs\579-Intelligent_system\PRJ\coco-dataset
